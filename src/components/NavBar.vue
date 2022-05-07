@@ -1,0 +1,24 @@
+<template>
+  <nav class="flex items-center p-4 text-sm font-bold text-white justify-evenly bg-slate-900">
+    <router-link :to="{ name: 'Home' }">Lou Lapins</router-link>
+    <router-link v-for="item in navItems" :to="{ name: item.componentName }" class="">{{ item.text }}
+    </router-link>
+  </nav>
+</template>
+<script setup lang="ts">
+import { ref } from 'vue'
+const navItems = ref([
+  {
+    componentName: 'Work',
+    text: 'Work'
+  },
+  {
+    componentName: 'About',
+    text: 'About'
+  },
+  {
+    componentName: 'Contact',
+    text: 'Contact'
+  }
+])
+</script>
