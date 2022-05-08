@@ -1,6 +1,6 @@
 <template>
-    <div class="box-border flex flex-col items-center w-1/2 h-screen">
-        <div class="flex flex-col items-start w-2/3 h-full justify-evenly">
+    <div class="box-border flex flex-col items-center justify-center h-screen">
+        <div class="flex flex-col items-start w-3/5 h-2/3 justify-evenly">
             <h1 class="w-48 text-6xl font-bold uppercase">Lou Lapins</h1>
             <p class="text-sm">I'm a front end developer from Stockholm.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum atque nemo aliquid ad ullam aspernatur.
@@ -9,7 +9,7 @@
 
             <div>
                 <LinkButton icon="github" url="https://github.com/LouLapins" title="Github Profile" />
-                <LinkButton icon="linkedin" url="https://www.linkedin.com/in/loulapins" title="Linkedin Profile" />
+                <LinkButton icon="linkedin" url="https://www.linkedin.com/in/loulapins" title="Linkedin Profile" class="mx-6" />
                 <LinkButton icon="facebook" url="https://www.facebook.com/lou.lapins" title="Facebook Profile" />
             </div>
         </div>
