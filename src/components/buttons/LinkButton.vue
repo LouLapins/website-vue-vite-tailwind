@@ -1,5 +1,5 @@
 <template>
-<button title="title" class="p-4 bg-gray-100 rounded-full hover:bg-gray-200">
+<button :title="title" class="p-4 bg-gray-100 rounded-full hover:bg-gray-200">
   <a :href="url" target="blank">
     <LinkedinIcon v-if="icon === 'linkedin'"></LinkedinIcon>
     <GithubIcon v-else-if="icon === 'github'"></GithubIcon>

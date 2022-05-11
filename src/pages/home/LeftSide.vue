@@ -1,8 +1,8 @@
 <template>
-    <div class="box-border flex flex-col items-center justify-center h-screen">
+    <div class="box-border flex flex-col items-center justify-center ">
         <div class="flex flex-col items-start w-3/5 h-2/3 justify-evenly">
-            <h1 class="w-48 text-6xl font-bold uppercase">Lou Lapins</h1>
-            <p class="text-sm">I'm a front end developer from Stockholm.
+            <h1 class="w-48 text-6xl font-bold uppercase font-display">Lou Lapins</h1>
+            <p class="text-sm font-body">I'm a front end developer from Stockholm.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum atque nemo aliquid ad ullam aspernatur.
             </p>
             <ActionButton @click="goToContact" text="Get in touch" title="Contact" />
@@ -16,8 +16,8 @@
     </div>
 </template>
 <script setup lang="ts">
-import LinkButton from '../buttons/LinkButton.vue'
-import ActionButton from '../buttons/ActionButton.vue';
+import LinkButton from './../../components/buttons/LinkButton.vue'
+import ActionButton from './../../components/buttons/ActionButton.vue';
 import router from '../../router';
 
 function goToContact() {
