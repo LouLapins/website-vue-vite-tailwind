@@ -1,6 +1,6 @@
 # Vue 3 + Vite + Tailwind
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
