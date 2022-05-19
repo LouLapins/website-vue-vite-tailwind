@@ -5,7 +5,7 @@
             <p class="text-sm font-body">I'm a front end developer from Stockholm.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum atque nemo aliquid ad ullam aspernatur.
             </p>
-            <ActionButton @click="goToContact" text="Get in touch" title="Contact" />
+            <ActionButton @click="goToContact" icon="contact" text="Get in touch" title="Contact" />
 
             <div>
                 <LinkButton icon="github" url="https://github.com/LouLapins" title="Github Profile" />
