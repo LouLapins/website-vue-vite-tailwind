@@ -16,7 +16,7 @@
         <img class="object-cover w-1/2 h-full max-w-full" src="../../assets/letters.jpg" alt="Cream colored envelopes">
     </section>
 </template>
-<script setup lang="ts">
+<script setup>
 import LinkButton from '../../components/buttons/LinkButton.vue'
 import ActionButton from '../../components/buttons/ActionButton.vue'
 </script>
