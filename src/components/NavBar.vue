@@ -8,17 +8,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const navItems = ref([
-  {
-    componentName: 'Work',
-    text: 'Work'
-  },
-  {
-    componentName: 'About',
-    text: 'About'
-  },
+  // {
+  //   componentName: 'Work',
+  //   text: 'Work'
+  // },
+  // {
+  //   componentName: 'About',
+  //   text: 'About'
+  // },
   {
     componentName: 'Contact',
-    text: 'Contact'
+    text: 'Contact me'
   }
 ])
 </script>

@@ -9,16 +9,16 @@ const routes = [{
         name: 'Home',
         component: Home
     },
-    {
-        path: '/work',
-        name: 'Work',
-        component: Work
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: About
-    },
+    // {
+    //     path: '/work',
+    //     name: 'Work',
+    //     component: Work
+    // },
+    // {
+    //     path: '/about',
+    //     name: 'About',
+    //     component: About
+    // },
     {
         path: '/contact',
         name: 'Contact',
