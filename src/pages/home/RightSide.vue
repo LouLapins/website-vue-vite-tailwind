@@ -1,5 +1,5 @@
 <template>
-    <TransitionGroup enter-from-class="opacity-0" tag="div" appear class="flex items-end justify-end h-screen bg-[#E9DBB9]">
+    <TransitionGroup enter-from-class="opacity-0" tag="div" appear class="flex items-end justify-end h-full bg-[#E9DBB9]">
         <div key="1" ref="plants" class="relative w-3/4 h-full bg-center bg-no-repeat bg-cover bg-plants-img">
         </div>
  

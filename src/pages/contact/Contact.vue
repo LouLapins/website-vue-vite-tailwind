@@ -1,5 +1,5 @@
 <template>
-    <section class="flex items-center w-full h-screen">
+    <section class="flex items-center w-full h-[calc(100vh-50px)]">
         <div class="flex flex-col items-center justify-center w-1/2">
             <h1 class="text-3xl font-bold text-zinc-900 font-display">Let's talk.</h1>
             <a class="my-16" href="mailto:lapins.lou@gmail.com">

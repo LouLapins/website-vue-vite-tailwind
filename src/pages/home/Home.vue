@@ -1,5 +1,5 @@
 <template>
-    <div class="flex">
+    <div class="flex h-[calc(100vh-50px)]">
         <LeftSide class="w-2/5"/>
         <RightSide class="w-3/5"/>
     </div>

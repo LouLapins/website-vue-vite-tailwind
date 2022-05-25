@@ -1,5 +1,5 @@
 <template>
-  <nav class="absolute z-10 flex items-center w-full p-4 text-sm font-bold text-white justify-evenly bg-zinc-900">
+  <nav class="z-10 flex items-center w-full text-sm font-bold text-white h-[50px] justify-evenly bg-zinc-900">
     <router-link :to="{ name: 'Home' }">Lou Lapins</router-link>
     <router-link v-for="item in navItems" :to="{ name: item.componentName }" class="">{{ item.text }}
     </router-link>
