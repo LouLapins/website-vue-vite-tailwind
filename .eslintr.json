@@ -1,0 +1,33 @@
+{
+    "env": {
+      "browser": true
+    },
+    "extends": [
+      "standard",
+      "plugin:vue/recommended"
+    ],
+    "rules": {
+      "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+      "comma-dangle": ["off"],
+      "default-case": ["error"],
+      "max-len": ["error", { "code": 90 }],
+      "operator-linebreak": "off",
+      "camelcase": ["off"],
+      "vue/html-closing-bracket-newline": [
+        "error",
+        {
+          "singleline": "never",
+          "multiline": "never"
+        }
+      ],
+      "no-unused-vars": [
+        "error",
+        {
+          "vars": "all",
+          "args": "after-used",
+          "varsIgnorePattern": "^_",
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  }

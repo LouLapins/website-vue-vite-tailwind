@@ -1,7 +1,7 @@
 <template>
-    <div class="flex">
-        <LeftSide class="w-2/5"/>
-        <RightSide class="w-3/5"/>
+    <div class="flex h-[calc(100vh-50px)]">
+        <LeftSide class="w-1/2"/>
+        <RightSide class="w-1/2"/>
     </div>
 </template>
 <script setup lang="ts">
