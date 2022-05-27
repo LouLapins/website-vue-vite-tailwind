@@ -1,9 +1,11 @@
 <template>
     <div class="flex flex-col justify-center h-full">
         <div class="flex flex-col items-start ml-24 w-80">
-            <h1 class="w-48 text-6xl font-bold uppercase font-display">Lou Lapins</h1>
-            <p class="my-8 text-sm font-body">I'm a front end developer from Stockholm.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum atque nemo aliquid ad ullam aspernatur.
+            <span class="text-xs font-semibold tracking-wide uppercase">Hello, I'm</span>
+            <h1 class="w-48 my-8 text-7xl text-zinc-900 font-bold uppercase leading-[3.5rem] font-display">Lou Lapins</h1>
+            <span class="font-semibold tracking-wide uppercase text-violet-500">Front End Developer</span>
+            <p class="my-8 text-sm font-light text-gray-700 font-body">
+                I'm a design minded developer from Stockholm, looking for my next job.
             </p>
             <ActionButton class="my-8" @click="goToContact" icon="contact" text="Get in touch" title="Contact" />
 
