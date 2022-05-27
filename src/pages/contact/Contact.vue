@@ -5,7 +5,7 @@
             <a class="my-16" href="mailto:lapins.lou@gmail.com">
                 <ActionButton title="Link to email" text="Email me here" icon="contact"/>
             </a>
-            <p class="mt-4 mb-16 text-gray-600 font-body">Or feel free to message me on any of these platforms&colon;</p>
+            <p class="mt-4 mb-16 text-sm font-light text-gray-700 font-body">Or feel free to message me on any of these platforms&colon;</p>
             <div>
                 <LinkButton icon="github" url="https://github.com/LouLapins" title="Github Profile" />
                 <LinkButton icon="linkedin" url="https://www.linkedin.com/in/loulapins" title="Linkedin Profile"
