@@ -14,7 +14,7 @@
             title="Contact" />
         </div>
         <SocialLinkButtonGroup class="mt-24 ml-24">
-            <hr class="absolute left-0 w-[70px] h-px border-zinc-900">
+            <hr class="absolute left-0 w-[70px] h-px border-zinc-700">
         </SocialLinkButtonGroup>
     </div>
 </template>
