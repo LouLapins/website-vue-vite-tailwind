@@ -1,5 +1,5 @@
 <template>
-    <router-link class="flex items-center h-full px-8 text-sm font-bold text-white group hover:bg-zinc-800"
+    <router-link class="flex items-center h-full px-8 text-sm font-bold text-white font-body group hover:bg-zinc-800"
         :to="{ name: toComponentName }">
         <slot></slot>
         {{ text }}
