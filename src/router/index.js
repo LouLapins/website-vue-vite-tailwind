@@ -15,6 +15,11 @@ const routes = [{
         name: 'NotFound',
         component: NotFound
     },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: Contact
+    },
     // {
     //     path: '/work',
     //     name: 'Work',
@@ -24,12 +29,7 @@ const routes = [{
     //     path: '/about',
     //     name: 'About',
     //     component: About
-    // },
-    {
-        path: '/contact',
-        name: 'Contact',
-        component: Contact
-    }
+    // }
 ]
 
 const router = createRouter({

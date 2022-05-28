@@ -4,8 +4,8 @@
       <div ref="plants" class="relative w-full h-full bg-center bg-no-repeat bg-cover bg-plants-img">
       </div>
     </Transition>
-    <img ref="image" src="../../assets/lou-river.jpg" alt="Lou by river"
-      class="absolute w-1/3 rounded-full lou top-48 right-1/3">
+    <img ref="image" src="../../assets/lou-river.jpg" alt="Lou Lapins"
+      class="absolute w-1/3 rounded-full lou top-[23%] right-1/3">
   </div>
 </template>
 
