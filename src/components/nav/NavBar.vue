@@ -1,5 +1,5 @@
 <template>
-  <nav class="z-10 flex items-center w-full px-16 justify-between h-[50px] bg-zinc-900">
+  <nav class="z-10 flex items-center w-full px-4 justify-between h-[50px] bg-zinc-900">
     <NavItem 
     to-component-name="Home" 
     text="Lou Lapins">
@@ -23,10 +23,10 @@ const navItems = ref([
   //   componentName: 'Work',
   //   text: 'Work'
   // },
-  // {
-  //   componentName: 'About',
-  //   text: 'About'
-  // },
+  {
+    componentName: 'About',
+    text: 'About'
+  },
   {
     componentName: 'Contact',
     text: 'Contact me',
