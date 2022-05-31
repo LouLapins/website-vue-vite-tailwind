@@ -16,7 +16,7 @@
             </div>
             <ActionButton text="Get in touch" @click="goToContact" icon="contact" />
         </div>
-        <div class="flex items-center justify-center w-[900px] h-[900px] rounded-full bg-indigo-50">
+        <div class="flex items-center justify-center w-[900px] h-[900px] rounded-full bg-gradient-to-r from-violet-50 to-indigo-50">
             <WorkIllustration class="h-1/2"></WorkIllustration>
         </div>
     </section>
