@@ -6,7 +6,7 @@
             <p class="my-8 text-sm font-light text-gray-700 font-body">
                 I'm a design minded developer from Stockholm, looking for my next job.
             </p>
-            <ActionButton class="mt-4" @click="goToContact" icon="contact" text="Get in touch" title="Contact" />
+            <ActionButton class="mt-4" @click="goToContact" icon="contact" text="Get in touch" />
         </div>
         <SocialLinkButtonGroup class="mt-24 ml-24">
             <hr class="absolute left-0 w-[70px] h-px border-zinc-700">

@@ -9,7 +9,7 @@
                         target="blank">Medieinstitutet.</a>
                 </p>
                 <p class="my-2"> Before that I have worked for ten years, mainly in retail and customer support.</p>
-                <p>I like beautiful interfaces, clean code and modern js based frameworks.</p>
+                <p>I like beautiful interfaces, clean code and modern javascript based frameworks.</p>
                 <p class="my-2">As a junior developer I'm still learning every day, so working closely with colleagues
                     is important to me.</p>
                 <p>If you think I could be a good fit for your team, I'd love to hear from you.</p>
