@@ -5,12 +5,12 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            body: ['Nunito', 'sans-serif'],
-            display: ['Fira Sans', 'sans-serif'],
+            'body': ['Nunito', 'sans-serif'],
+            'display': ['Fira Sans', 'sans-serif']
         },
         extend: {
             backgroundImage: {
-                'plants-img': "url('/plants-md.jpg')"
+                'waves-img': "url('/wavy-background.svg')"
             }
         },
     },

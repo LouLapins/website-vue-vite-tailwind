@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router"
 import Home from '../pages/home/Home.vue'
 import NotFound from '../pages/404/NotFound.vue'
-// import Work from '../pages/work/Work.vue'
-// import About from '../pages/about/About.vue'
+import Work from '../pages/work/Work.vue'
+import About from '../pages/about/About.vue'
 import Contact from '../pages/contact/Contact.vue'
 
 const routes = [{
@@ -16,20 +16,20 @@ const routes = [{
         component: NotFound
     },
     {
+        path: '/work',
+        name: 'Work',
+        component: Work
+    },
+    {
+        path: '/about',
+        name: 'About',
+        component: About
+    },
+    {
         path: '/contact',
         name: 'Contact',
         component: Contact
-    },
-    // {
-    //     path: '/work',
-    //     name: 'Work',
-    //     component: Work
-    // },
-    // {
-    //     path: '/about',
-    //     name: 'About',
-    //     component: About
-    // }
+    }
 ]
 
 const router = createRouter({
