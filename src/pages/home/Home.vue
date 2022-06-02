@@ -1,7 +1,7 @@
 <template>
-    <section class="w-full md:flex md:overflow-hidden">
-        <TextElements class="w-1/3"/>
+    <section class="flex flex-col items-center justify-center w-full md:flex-row">
         <ImageCircle />
+        <TextElements class="w-full md:w-1/3"/>
         <div class="relative invisible w-full h-full overflow-hidden md:visible">
             <div class="absolute w-3/5 h-[300%] bg-right-bottom bg-no-repeat right-0 bg-waves-img">
             </div>

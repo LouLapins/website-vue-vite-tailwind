@@ -1,5 +1,5 @@
 <template>
-    <section class="flex items-center w-full md:overflow-hidden">
+    <section class="flex items-center w-full">
         <div class="flex flex-col items-center justify-center w-2/5">
             <h1 class="mb-8 text-3xl font-bold text-zinc-900 font-display">About me</h1>
             <div class="w-[70%] mb-16 text-sm font-light leading-loose text-gray-700 font-body">

@@ -1,7 +1,7 @@
 <template>
     <Transition enter-from-class="translate-y-24 opacity-0" tag="div" appear>
       <img ref="image" src="../../../assets/lou-river.jpg" alt="Lou Lapins"
-        class="absolute self-center w-1/3 rounded-full left-1/3">
+        class="w-1/2 mt-24 rounded-full md:mt-0 md:z-10 md:absolute md:self-center md:w-1/3 md:left-[55%] lg:left-[45%] xl:left-1/3">
     </Transition>
 </template>
 
