@@ -1,5 +1,5 @@
 <template>
-    <section class="flex items-center overflow-hidden w-full h-[calc(100vh-50px)]">
+    <section class="flex items-center w-full">
         <div class="flex flex-col items-center justify-center w-2/5">
             <h1 class="mb-8 text-3xl font-bold text-zinc-900 font-display">About me</h1>
             <div class="w-[70%] mb-16 text-sm font-light leading-loose text-gray-700 font-body">
@@ -9,7 +9,7 @@
                         target="blank">Medieinstitutet.</a>
                 </p>
                 <p class="my-2"> Before that I have worked for ten years, mainly in retail and customer support.</p>
-                <p>I like beautiful interfaces, clean code and modern js based frameworks.</p>
+                <p>I like beautiful interfaces, clean code and modern javascript based frameworks.</p>
                 <p class="my-2">As a junior developer I'm still learning every day, so working closely with colleagues
                     is important to me.</p>
                 <p>If you think I could be a good fit for your team, I'd love to hear from you.</p>

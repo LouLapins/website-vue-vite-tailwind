@@ -1,13 +1,16 @@
 <template>
-    <div class="flex items-center">
+    <div class="flex items-center justify-center md:justify-start">
         <slot></slot>
-        <LinkButton url="https://github.com/LouLapins" title="Github Profile">
+        <LinkButton url="https://github.com/LouLapins">
+            <span class="sr-only">Github Profile</span>
             <GithubIcon />
         </LinkButton>
-        <LinkButton url="https://www.linkedin.com/in/loulapins" title="Linkedin Profile" class="mx-8">
+        <LinkButton url="https://www.linkedin.com/in/loulapins" class="mx-8">
+            <span class="sr-only">Linkedin Profile</span>
             <LinkedinIcon />
         </LinkButton>
-        <LinkButton url="https://www.facebook.com/lou.lapins" title="Facebook Profile">
+        <LinkButton url="https://www.facebook.com/lou.lapins">
+            <span class="sr-only">Facebook Profile</span>
             <FacebookIcon />
         </LinkButton>
     </div>

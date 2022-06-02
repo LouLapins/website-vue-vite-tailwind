@@ -1,8 +1,9 @@
 <template>
-    <section class="flex items-center w-full h-[calc(100vh-50px)]">
+    <section class="flex items-center w-full">
         <div class="flex flex-col items-center justify-center w-1/2">
             <h1 class="text-3xl font-bold text-zinc-900 font-display">Let's talk.</h1>
             <a class="my-16" href="mailto:lapins.lou@gmail.com">
+                <span class="sr-only">To email</span>
                 <ActionButton title="Open email" text="Email me here" icon="contact" />
             </a>
             <p class="mb-4 text-sm font-light text-gray-700 font-body">Or copy my email address here.</p>

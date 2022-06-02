@@ -1,6 +1,6 @@
 <template>
-    <router-link class="flex items-center h-full px-8 text-sm font-bold text-white font-body group hover:bg-zinc-800"
-        :to="{ name: toComponentName }">
+    <router-link class="flex items-center px-8 h-[50px] text-sm font-bold text-white md:py-0 font-body group hover:bg-zinc-800"
+        :to="{ name: toComponentName }" @click="$emit('hideMobileMenu')">
         <slot></slot>
         {{ text }}
     </router-link>
@@ -10,4 +10,6 @@ defineProps({
     toComponentName: String,
     text: String
 })
+
+const emit = defineEmits(['hideMobileMenu'])
 </script>
