@@ -1,6 +1,7 @@
 <template>
-  <NavBar></NavBar>
-  <router-view v-slot="{ Component }">
+  <NavBar @toggle-scroll="toggleScroll" class="h-[50px]"></NavBar>
+  <router-view v-slot="{ Component }" 
+  :class="[canScroll ? 'overflow-y-scroll' : 'fixed', 'md:overflow-hidden md:relative h-[calc(100vh-50px)]']">
     <Transition mode="out-in" 
     enter-from-class="opacity-0" 
     enter-active-class="transition-all ease-out" 
@@ -12,4 +13,11 @@
 </template>
 <script setup>
 import NavBar from './components/nav/NavBar.vue'
+import { ref } from 'vue'
+
+const canScroll = ref(true)
+
+function toggleScroll() {
+  canScroll.value = !canScroll.value
+}
 </script>
