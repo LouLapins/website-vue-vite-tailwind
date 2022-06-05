@@ -1,6 +1,6 @@
 <template>
-    <section class="flex items-center w-full">
-        <div class="flex flex-col items-center justify-center w-1/2">
+    <section class="flex flex-col items-center w-full mt-16 lg:my-0 lg:flex-row">
+        <div class="flex flex-col items-center justify-center lg:w-1/2">
             <h1 class="text-3xl font-bold text-zinc-900 font-display">Let's talk.</h1>
             <a class="my-16" href="mailto:lapins.lou@gmail.com">
                 <span class="sr-only">To email</span>
@@ -17,7 +17,7 @@
                 platforms&colon;</p>
             <SocialLinkButtonGroup />
         </div>
-        <div class="flex items-center justify-center w-1/2 h-full bg-gray-50">
+        <div class="flex items-center justify-center w-full h-full mt-16 lg:m-0 lg:w-1/2 bg-gray-50">
         <ContactIllustration class="w-[90%] max-w-full"></ContactIllustration>
         </div>
     </section>
