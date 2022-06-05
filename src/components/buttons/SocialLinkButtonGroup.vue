@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center md:justify-start">
+    <div class="flex items-center justify-center lg:justify-start">
         <slot></slot>
         <LinkButton url="https://github.com/LouLapins">
             <span class="sr-only">Github Profile</span>
