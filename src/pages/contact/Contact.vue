@@ -1,19 +1,19 @@
 <template>
-    <section class="flex flex-col items-center w-full mt-16 lg:my-0 lg:flex-row">
-        <div class="flex flex-col items-center justify-center lg:w-1/2">
+    <section class="flex flex-col items-center w-full mt-16 text-center lg:my-0 lg:flex-row">
+        <div class="flex flex-col items-center justify-center text-sm font-light text-gray-700 2xl:text-base lg:w-1/2">
             <h1 class="text-3xl font-bold text-zinc-900 font-display">Let's talk.</h1>
             <a class="my-16" href="mailto:lapins.lou@gmail.com">
                 <span class="sr-only">To email</span>
                 <ActionButton title="Open email" text="Email me here" icon="contact" />
             </a>
-            <p class="mb-4 text-sm font-light text-gray-700 font-body">Or copy my email address here.</p>
+            <p class="mb-4 font-body">Or copy my email address here.</p>
             <div class="flex items-center bg-gray-100 rounded-md ring-1 ring-gray-200">
                 <input ref="myInput" v-on:focus="$event.target.select()" value="lapins.lou@gmail.com" type="text"
                     readonly
                     class="p-3 mx-3 text-xs text-gray-500 bg-transparent focus-visible:[outline:none] tracking-wide truncate">
                 <CopyButton :copied="copied" @click="copy"></CopyButton>
             </div>
-            <p class="my-16 text-sm font-light text-gray-700 font-body">Or connect with me on any of these
+            <p class="my-16 font-body">Or connect with me on any of these
                 platforms&colon;</p>
             <SocialLinkButtonGroup />
         </div>
