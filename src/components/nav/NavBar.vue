@@ -5,7 +5,7 @@
         <LogoIcon />
       </NavItem>
       <Button @click="toggleMobileMenu" s-r-text="Toggle menu"
-        class="h-[50px] w-auto z-20 p-4 lg:invisible text-white">
+        class="h-[50px] w-auto z-20 px-4 lg:invisible text-white">
         <CloseIcon v-if="showMobileMenu" />
         <MenuIcon v-else/>
       </Button>
