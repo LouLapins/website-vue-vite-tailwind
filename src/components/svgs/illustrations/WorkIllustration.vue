@@ -1,7 +1,6 @@
 <template>
-    <svg aria-labelledby="title" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="728.08199" height="680.00102"
+    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="728.08199" height="680.00102"
         viewBox="0 0 728.08199 680.00102" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <title id="title" lang="en">Mobile screen with cv</title>
         <path id="a55003b0-0446-4784-a3ce-c481a9759178-1494" data-name="Path 339"
             d="M790.76434,271.5935h-3.736v-102.354a59.24,59.24,0,0,0-59.24-59.24h-216.846a59.24,59.24,0,0,0-59.24,59.24v561.521a59.24,59.24,0,0,0,59.24,59.24h216.85a59.24,59.24,0,0,0,59.24-59.24v-386.31h3.732Z"
             transform="translate(-235.95901 -109.99949)" fill="#3f3d56" />

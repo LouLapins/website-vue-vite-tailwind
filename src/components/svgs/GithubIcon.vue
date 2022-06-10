@@ -1,6 +1,6 @@
 <template>
-    <svg aria-labelledby="title" class="w-4 h-4" title="Github Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-        <title id="title" lang="en">Github</title>
+    <svg aria-labelledby="github" class="w-4 h-4" title="Github Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+        <title id="github" lang="en">Github</title>
         <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
         <path
             fill="currentColor"
