@@ -1,8 +1,8 @@
 <template>
   <header class="left-0 z-10 w-screen stop-0 lg:relative bg-zinc-900">
     <nav class="flex items-center justify-between">
-      <NavItem to-component-name="Home" text="Lou Lapins">
-        <LogoIcon />
+      <NavItem to-component-name="Home" text="Lou Lapins" class="flex items-center justify-center">
+        <LogoIcon class="relative bottom-0.5 w-[12px] mr-2"/>
       </NavItem>
       <Button @click="toggleMobileMenu" s-r-text="Toggle menu"
         class="h-[50px] w-auto z-20 px-4 lg:invisible text-white">
@@ -24,7 +24,7 @@
 <script setup>
 import { ref } from 'vue'
 import NavItem from './NavItem.vue'
-import LogoIcon from './LogoIcon.vue'
+import LogoIcon from '../svgs/LogoIcon.vue'
 import Button from '../buttons/Button.vue'
 import MenuIcon from '../svgs/MenuIcon.vue'
 import CloseIcon from '../svgs/CloseIcon.vue'

@@ -1,0 +1,12 @@
+<template>
+    <svg aria-labelledby="logo" width="46" height="63" viewBox="0 0 46 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <title id="logo" lang="en">Lou Lapins Logo</title>
+        <line x1="5.5" y1="18.625" x2="5.5" y2="57.5" stroke="#9A63F8" stroke-width="11" stroke-linecap="round" />
+        <line x1="5.5" y1="57.5" x2="32.6143" y2="57.5" stroke="#9A63F8" stroke-width="11" stroke-linecap="round" />
+        <line x1="13.3857" y1="12.0625" x2="13.3857" y2="50.9375" stroke="#9A63F8" stroke-opacity="0.42"
+            stroke-width="11" stroke-linecap="round" />
+        <line x1="13.3857" y1="49.625" x2="40.5" y2="49.625" stroke="#9A63F8" stroke-opacity="0.42" stroke-width="11"
+            stroke-linecap="round" />
+    </svg>
+</template>
+<script setup></script>
