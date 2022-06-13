@@ -4,9 +4,9 @@
   :class="[canScroll ? 'overflow-y-scroll' : 'fixed', 'overflow-x-hidden lg:overflow-y-auto lg:relative lg:h-[calc(100vh-50px)]']">
     <Transition mode="out-in" 
     enter-from-class="opacity-0" 
-    enter-active-class="transition-all ease-out" 
+    enter-active-class="transition-all ease-in-out" 
     leave-to-class="opacity-0" 
-    leave-active-class="transition-all ease-in">
+    leave-active-class="transition-all ease-in-out">
       <component :is="Component" />
     </Transition>
   </router-view>
