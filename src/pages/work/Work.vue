@@ -57,7 +57,7 @@
       <WorkItem
         image-src-url="/assets/weather-app.jpg"
         image-alt-text="Weather App screenshot"
-        image-link-url="ttps://github.com/LouLapins/weather-app-node-react"
+        image-link-url="https://github.com/LouLapins/weather-app-node-react"
       >
         <BodyText>
           <p>
