@@ -1,8 +1,8 @@
 <template>
     <section class="flex flex-col items-center w-full mt-16 text-center lg:my-0 lg:flex-row">
         <div class="flex flex-col items-center justify-center text-sm font-light text-gray-700 2xl:text-base lg:w-1/2">
-            <h1 class="text-3xl font-bold text-zinc-900 font-display">Let's talk.</h1>
-            <a class="my-16" href="mailto:lapins.lou@gmail.com">
+            <Heading text="Let's talk." />
+            <a class="mt-8 mb-16" href="mailto:lapins.lou@gmail.com">
                 <span class="sr-only">To email</span>
                 <ActionButton title="Open email" text="Email me here" icon="contact" />
             </a>
@@ -18,7 +18,7 @@
             <SocialLinkButtonGroup />
         </div>
         <div class="flex items-center justify-center w-full h-full mt-16 lg:m-0 lg:w-1/2 bg-gray-50">
-        <ContactIllustration class="w-[90%] max-w-full"></ContactIllustration>
+            <ContactIllustration class="w-[90%] max-w-full"></ContactIllustration>
         </div>
     </section>
 </template>
@@ -28,6 +28,7 @@ import ActionButton from '../../components/buttons/ActionButton.vue'
 import SocialLinkButtonGroup from '../../components/buttons/SocialLinkButtonGroup.vue'
 import CopyButton from '../../components/buttons/CopyButton.vue'
 import ContactIllustration from '../../components/svgs/illustrations/ContactIllustration.vue'
+import Heading from '../../components/typography/Heading.vue'
 
 const myInput = ref()
 const copied = ref(false)

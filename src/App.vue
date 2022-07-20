@@ -20,4 +20,5 @@ const canScroll = ref(true)
 function toggleScroll() {
   canScroll.value = !canScroll.value
 }
+
 </script>
