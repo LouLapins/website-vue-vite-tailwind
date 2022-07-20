@@ -1,5 +1,5 @@
 <template>
-  <NavBar @toggle-scroll="toggleScroll" class="h-[50px]"></NavBar>
+  <NavBar @toggle-scroll="toggleScroll" @enable-scroll="enableScroll" class="h-[50px]"></NavBar>
   <router-view v-slot="{ Component }" 
   :class="[canScroll ? 'overflow-y-scroll' : 'fixed', 'overflow-x-hidden lg:overflow-y-auto lg:relative lg:h-[calc(100vh-50px)]']">
     <Transition mode="out-in" 
@@ -19,6 +19,10 @@ const canScroll = ref(true)
 
 function toggleScroll() {
   canScroll.value = !canScroll.value
+}
+
+function enableScroll() {
+  canScroll.value = true
 }
 
 </script>

@@ -45,7 +45,7 @@ const navItems = ref([
   },
 ])
 
-const emit = defineEmits(['toggleScroll'])
+const emit = defineEmits(['toggleScroll', 'enableScroll'])
 
 function toggleMobileMenu() {
   showMobileMenu.value = !showMobileMenu.value
@@ -54,7 +54,8 @@ function toggleMobileMenu() {
 }
 
 watch(route, (to, from) => {
-toggleMobileMenu()
+showMobileMenu.value = false
+emit('enableScroll')
 })
 
 
