@@ -26,7 +26,7 @@
     </div>
     <div class="pb-16 bg-violet-50 lg:w-2/3">
       <WorkItem
-        image-src-url="src/assets/lerverket-screenshot.jpg"
+        image-src-url="/src/assets/lerverket-screenshot.jpg"
         image-alt-text="Lerverket screenshot"
         image-link-url="https://lerverket.netlify.app/"
       >
@@ -55,7 +55,7 @@
         </BodyText>
       </WorkItem>
       <WorkItem
-        image-src-url="src/assets/weather-app.jpg"
+        image-src-url="/src/assets/weather-app.jpg"
         image-alt-text="Weather App screenshot"
         image-link-url="ttps://github.com/LouLapins/weather-app-node-react"
       >
