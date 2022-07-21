@@ -4,6 +4,9 @@
       <Heading text="Previous projects" />
       <BodyText class="mb-16">
         <p>
+          I have experience working with Vue.js, React.js, Node.js and Angular.
+        </p>
+        <p>
           The past year I have done two internships, two months at
           <TextLink
             aria-label="Link to Stretch"
@@ -31,13 +34,13 @@
         image-link-url="https://lerverket.netlify.app/"
       >
         <BodyText>
+          <h2 class="my-2 text-lg font-bold">Website and cms for company Lerverket</h2>
           <p>
-            Website and cms for company Lerverket. Built with React.js,
-            Typescript, Strapi and GraphQL.
+            Built with React, Typescript, Strapi and GraphQL.
           </p>
           <p class="my-2">
             The backend is hosted on Heroku's hobby tier - this means that the
-            Heroku server goes into sleep mode when it is not used. The site can
+            Heroku server goes into sleep mode when it is not used. The first load can
             be slow as the server 'wakes up'. Just refresh the browser and it
             should be fast again.
           </p>
@@ -60,17 +63,16 @@
         image-link-url="https://github.com/LouLapins/weather-app-node-react"
       >
         <BodyText>
-          <p>
-            Weather app serving data from
+          <h2 class="my-2 text-lg font-bold">Weather App</h2>
+          <p>Built with React, Node.js and Typescript.</p>
+          <p class="my-2">
+             A 10 day forecast for Stockholm Royal Palace, serving data from
             <TextLink
               aria-label="SMHI API Docs"
               url="https://opendata.smhi.se/apidocs/metfcst/index.html"
               text="SMHI"
-            />, a 10 day forecast for Stockholm Royal Palace. Built with React,
-            Node.js and Typescript.
-          </p>
-          <p class="my-2">
-            I got this assignment recently as a coding test, as part of a job
+            />. 
+            I was assigned this coding task recently, as part of a job
             application process.
           </p>
           <TextLink
